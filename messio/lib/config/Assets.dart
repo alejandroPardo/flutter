@@ -1,3 +1,3 @@
 class Assets {
-  static String user = 'assets/user.png';
+  static const String user = 'assets/user.png';
 }

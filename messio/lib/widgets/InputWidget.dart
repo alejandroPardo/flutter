@@ -4,7 +4,9 @@ import 'package:messio/config/Palette.dart';
 
 class InputWidget extends StatelessWidget {
   
-  final TextEditingController textEditingController = new TextEditingController();
+  final TextEditingController textEditingController = TextEditingController();
+
+  InputWidget();
 
   @override
   Widget build(BuildContext context) {
